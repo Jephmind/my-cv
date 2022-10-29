@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: lightblue;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif;
+}
+.container{
+    width:70vw;
+    display: grid;
+    grid-template-columns: 1fr 2.4fr;
+    margin :50px 0px;
+    box-shadow:0 0 0 1px rgba(0 0 0 /15%),0 0 0 rgba(0 0 0 /20%);
+   
+}
+@media screen and (max-width:450px) {
+    .container{
+          display: grid;
+        grid-template-columns: 1fr ;
+        margin :50px 0px;
+        box-shadow:0 0 0 1px rgba(0 0 0 /15%),0 0 0 rgba(0 0 0 /20%);
+   
+    }    
+    
+}
+.Left{
+    background-color:#003147;
+    
+    text-align: center;
+    padding: 25px 0px;
+}
+.Right{
+    background-color: white;
+    
+    padding: 25px;
+    
+}
+.profile-image{
+    width:100px;
+    height:100px;
+    margin:30px auto 20px;
+}
+.profile-image>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: contain;
+}
+.header>h3{
+    padding-bottom:5px;
+    color:#fff;
+    text-align: left;
+    margin-left: 30px;
+    
+}
+.title>h4{
+    color:#fff;
+    opacity: .8;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.bottom{
+    border-bottom: 1px solid lightslategray;
+    margin: 15px;
+    padding: 10px;
+}
+.header h4{
+    color: #fff;
+    text-align: left;
+    margin-left: 30px;
+    
+}
+ul {
+    list-style: none;
+     margin-top: 20px;
+}
+.icon{
+    width:18px;
+    height: 18x;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.icon img{
+    width:100%;
+    height: 100%;
+}
+ul li{
+    margin:10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.9;
+    text-align: left;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+.link a{
+    color:white;
+    text-decoration: none;
+}
+.Language{
+    padding: 10px;
+}
+.Language p{
+    text-align: left;
+    margin: 13px 0 10px 0px;
+    color: #fff;
+    font-size: 11px;
+    opacity: .9;
+}
+.rank{
+    display: flex;
+    flex-direction: row;
+    width:90%;
+    
+}
+.English .first{
+    width:120px;
+    background-color: #2977c9;
+    height: 4px;
+}
+.English .second{
+    width:40px;
+    background-color:black;
+    height: 4px;
+}
+.Amharic .first{
+    width:140px;
+    background-color: #2977c9;
+    height: 4px;
+}
+.Amharic .second{
+    width:20px;
+    background-color:black;
+    height: 4px;
+}
+.header-right{
+    color:#003147;
+}
+.profile p{
+    margin-top: 8px;
+    color:rgba(0,0,0,0.9);
+    font-size: 14px;
+}
+.professional{
+    margin-top: 30px;
+}
+.professional p{
+    font-size: 12px;
+    margin:10px 0px;
+}
+.html .first{
+    width:90%;
+    background-color: #2977c9;
+    height: 5px;
+}
+.html .second{
+    width:10%;
+    background-color:gray;
+    height:5px;
+}
+.css .first{
+    width:85%;
+    background-color: #2977c9;
+    height: 5px;
+}
+.css .second{
+    width:15%;
+    background-color:gray;
+    height:5px;
+}
+.javascript .first{
+    width:80%;
+    background-color: #2977c9;
+    height: 5px;
+}
+.javascript .second{
+    width:20%;
+    background-color:gray;
+    height:5px;
+}
+.react .first{
+    width:65%;
+    background-color: #2977c9;
+    height: 5px;
+}
+.react .second{
+    width:35%;
+    background-color:gray;
+    height:5px;
+}
+.redux .first{
+    width:60%;
+    background-color: #2977c9;
+    height: 5px;
+}
+.redux .second{
+    width:40%;
+    background-color:gray;
+    height:5px;
+}
+.java .first{
+    width:80%;
+    background-color: #2977c9;
+    height: 5px;
+}
+.java .second{
+    width:20%;
+    background-color:gray;
+    height:5px;
+}
+.c .first{
+    width:90%;
+    background-color: #2977c9;
+    height: 5px;
+}
+.c .second{
+    width:10%;
+    background-color:gray;
+    height:5px;
+}
+.mysql .first{
+    width:85%;
+    background-color: #2977c9;
+    height: 5px;
+}
+.mysql .second{
+    width:15%;
+    background-color:gray;
+    height:5px;
+}
+.interset
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 500;
+}
+@media screen and (max-width:450pc) {
+@media screen and (max-width:450px) {
+    .interset
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin:10px
+
+    }
+    .interset>div{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+}
+.footer{
+    margin: 30px 0px;
+    
+}
